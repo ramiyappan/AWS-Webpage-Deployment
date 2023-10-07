@@ -9,7 +9,7 @@ PART-1: Homepage
 - Created personal website of a short portfolio about myself containing picture, description and skills including links to the application using VScode.
 - Created S3 bucket in the name ramiyappan-gmu.com following the listed steps @ https://docs.aws.amazon.com/AmazonS3/latest/userguide/HostingWebsiteOnS3Setup.html.
 - Enabled static website hosting for the created bucket and mentioned index and error files.
-- Added all necessary objects including HTML file (mywebsite.html), CSS file (stylesheet.css) and other images.
+- Added all necessary objects including HTML file `mywebsite.html`, CSS file `stylesheet.css` and other images.
 
 ### Hosted @
   ```
