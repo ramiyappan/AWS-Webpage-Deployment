@@ -2,6 +2,8 @@ AWS Webpage Deployment
 -----------------------
 Designed a Web application to be deployed on AWS S3 buckets and EC2 instances using HTML, CSS, Javascript, and AWS Virtual Machine.
 
+Live Webpage: [Survey form](https://ramiyappan.github.io/AWS-Webpage-Deployment/)
+
 
 PART-1: Homepage
 ----------------
@@ -11,11 +13,9 @@ PART-1: Homepage
 - Enabled static website hosting for the created bucket and mentioned index and error files.
 - Added all necessary objects including HTML file `mywebsite.html`, CSS file `stylesheet.css` and other images.
 
-### Hosted @
-  ```
-  http://ramiyappan-gmu.com.s3-website-us-east-1.amazonaws.com/
-  ```
-<b>(Currently not accessible since instances have been terminated.)</b>
+>[!NOTE]
+>Previously hosted @ [AWS](http://ramiyappan-gmu.com.s3-website-us-east-1.amazonaws.com/),
+>currently not accessible since instances have been terminated.
 
 PART-2:	Survey-Form
 -------------------
@@ -53,8 +53,6 @@ and .pem file `hw1.pem` on the local system and execute the following commands i
 - Make sure that the EC2 instance and Eclipse web project are created according to the above settings so that the required access and security is established.
 - The WAR file was finally deployed on the EC2 instance using its Public IPv4 DNS.
 
-### Hosted @
-```
-https://ec2-52-86-87-37.compute-1.amazonaws.com/Survey/survey.html
-```
-<b>(Currently not accessible since instances have been terminated.)</b>
+>[!NOTE]
+>Previously hosted @ [AWS](https://ec2-52-86-87-37.compute-1.amazonaws.com/Survey/survey.html),
+>currently not accessible since instances have been terminated.
