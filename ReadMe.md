@@ -25,7 +25,7 @@ PART-2:	Survey-Form
 - Project contains `survey.html` which is the Survey Form and `stylesheet.css` which is the external style sheet for the webpage, and other necessary images.
 - Deployed application on local tomcat server @ `localhost:8080`
 - Extracted the Eclipse project as a WAR file along with all the source files.
-- Created and setup new EC2 instance `SWE 645` in Amazon EC2 console using "Tomcat packaged by Bitnami" AMI, `t2.micro` free tier version and rest default settings.
+- Created and setup new EC2 instance in Amazon EC2 console using "Tomcat packaged by Bitnami" AMI, `t2.micro` free tier version and rest default settings.
 - Created and downloaded new key pair `hw1.pem`.
 - While creating the instance, it was ensured that the security group settings allow the instance to be publicly accessible.
 - After following all the above steps, the EC2 instance was successfully created.
